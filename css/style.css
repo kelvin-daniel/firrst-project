@@ -1,17 +1,34 @@
-h1{
-    color: forestgreen;
-    text-decoration: wavy;
-    text-align: center;
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../cobweb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: none;
+    width: 20%;
+    height: 20px solid #ffffff;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
 }
-section{
-    color: black;
+
+.blog {
+    margin-bottom: 20px;
 }
-/* target red */
-.red{
-    color: red;
+
+.date {
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-/* targeting elements with id */
-#section2{
-    display: grid;
-    column-rule-color: turquoise;
+
+.paragraph {
+    border-left: 5px solid #2370a5;
+    padding-left: 5px;
+}
+
+h2 {
+    font-size: 2.0rem;
+    color: #ffffff;
 }
