@@ -1,0 +1,17 @@
+h1{
+    color: forestgreen;
+    text-decoration: wavy;
+    text-align: center;
+}
+section{
+    color: black;
+}
+/* target red */
+.red{
+    color: red;
+}
+/* targeting elements with id */
+#section2{
+    display: grid;
+    column-rule-color: turquoise;
+}
